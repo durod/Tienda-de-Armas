@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+<!--FAVICONS-->
+<link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-touch-icon.png" >
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png" >
+<link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png" >
+<link rel="manifest" href="/site.webmanifest" >
+    <title>BULLET</title>
+</head>
+
+<body>
+    <div class="grid-container">
+
+        <header class="cajaheader">
+
+            <div class="social-links">
+                <div id="twitter" class="social-btn flex-center">
+                    <svg viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
+                        </path>
+                    </svg><span>@Bullet</span>
+                </div>
+
+                <div id="linkedin" class="social-btn flex-center">
+                    <svg viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z">
+                        </path>
+                    </svg><span>@Bullet</span>
+                </div>
+
+                <div id="github" class="social-btn flex-center">
+                    <svg viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z">
+                        </path>
+                    </svg><span>@Bullet</span>
+                </div>
+            </div>
+
+        </header>
+
+
+        <nav >
+            <div class="cajanav">
+                <div class="logomarca">
+                    <img src="./assets/img/bullet.png" alt="" class="logoimg">
+                    <div class="textologo"><h2>BULLET</h2></div>
+                </div>
+
+                <div class="listanav">
+                    <div class="listanav1">
+                        <h3>Armamento</h3>
+                        <ul>
+                            <li>
+                                <a href="#pistolas"> Pistolas </a>
+                            </li>
+
+                            <li>
+                                <a href="#revolver"> Revólver  </a>
+                            </li>
+
+                            <li>
+                                <a href="#escopetas"> Escopetas </a>
+                            </li>
+
+                            <li>
+                                <a href="#rifles"> Rifles</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="|">
+                        <h3>Accesorios</h3>
+                        <ul>
+                            <li> <a href="#miras"> Miras </a>
+                            </li>
+
+                            <li> <a href="#visores"> Visor Nocturno </a>
+                            </li>
+
+                            <li> <a href="#armeros"> Armeros </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <a href="https://durod.github.io/tiroalblanco/" class="icon-btn add-btn" target="_blank">
+                    <div class="add-icon"></div>
+                    <div class="btn-txt">Práctica</div>
+                  </a>
+
+            </div>
+        </nav>
+
+
+
+
+
+        <main>
+            <section class="productos">
+
+                <h2 id="pistolas">Pistolas</h2>
+                <div class="item" >
+                    <div class="infoproducto">
+                        <div class="imgproducto">
+                            <img src="./assets/img/armas/pistolas/stoeger-1.jpg" class="card-img1" alt="...">
+                            <img src="./assets/img/armas/pistolas/stoeger-2.jpg" class="card-img2" alt="...">
+                        </div>
+                        <div class="resumenproducto">
+                            <h5 class="card-title">STOEGER STR-9</h5>
+                            <p class="card-text">Con la nueva STR-9 Stoeger aporta fiabilidad y durabilidad al mundo de
+                                las pistolas semiautomáticas. Esta 9mm viene con todas las características de una
+                                pistola de última generación a un precio inmejorable..</p>
+                        </div>
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="infoproducto">
+                        <div class="imgproducto">
+                            <img src="./assets/img/armas/pistolas/smithwesson-1.jpg" class="card-img1" alt="...">
+                            <img src="./assets/img/armas/pistolas/smithwesson-2.jpg" class="card-img2" alt="...">
+                        </div>
+                        <div class="resumenproducto">
+                            <h5 class="card-title">SMITH&WESSON M&P380</h5>
+                            <p class="card-text">Armazón de polímero de alta densidad con chasis metálico de acero
+                                inoxidable.
+                                Todas las piezas metálicas: corredera, palanca, retenida, etc... de acero inoxidable
+                                tratado con ARMORNITE que además de ennegrecerlos aporta una gran resistencia.
+                                Seguro de aleta + empuñadura.</p>
+                        </div>
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="infoproducto">
+                        <div class="imgproducto">
+                            <img src="./assets/img/armas/pistolas/glock-44-1.jpg" class="card-img1" alt="...">
+                            <img src="./assets/img/armas/pistolas/glock-44-2.jpg" class="card-img2" alt="...">
+                        </div>
+                        <div class="resumenproducto">
+                            <h5 class="card-title">GLOCK 44 Cal.22</h5>
+                            <p class="card-text">. la primera pistola GLOCK en calibre 22 l.r.
+                                La G44 presenta una corredera híbrida de polímero y acero, características típicas de
+                                Gen5 y el probado sistema Safe Action®. La pistola perfecta para principiantes.</p>
+                        </div>
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <h2 id="revolver">Revólver</h2>
+                <div class="item" >
+                    <div class="infoproducto">
+                        <div class="imgproducto">
+                            <img src="./assets/img/armas/revolver/357mgnum.jpg" class="card-img1" alt="...">
+                            <img src="./assets/img/armas/revolver/357mgnum2.jpg" class="card-img2" alt="...">
+                        </div>
+                        <div class="resumenproducto">
+                            <h5 class="card-title">COLT PYTHON 357Mg</h5>
+                            <p class="card-text">El legendario Colt Python a vuelto!!!!! Sobre la base del
+                                legado de Colt Snake Gun, el legendario revólver de doble acción regresa en
+                                acero inoxidable con cañon 6" de largo. El nuevo Python 2020 cuenta con modernas
+                                aleaciones de acero inoxidable y una mira trasera rediseñada.</p>
+                        </div>
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="infoproducto">
+                        <div class="imgproducto">
+                            <img src="./assets/img/armas/revolver/wesson637.jpg" class="card-img1" alt="...">
+                            <img src="./assets/img/armas/revolver/wesson6372.jpg" class="card-img2" alt="...">
+                        </div>
+                        <div class="resumenproducto">
+                            <h5 class="card-title">SMITH WESSON 637 38</h5>
+                            <p class="card-text">Los revólveres Smith & Wesson J-Frame vienen fabricándose desde
+                                1950. Estos pequeños revólveres fueron diseñados para disparar una munición a
+                                máxima potencia y son tan simples y fáciles de usar como fiables.</p>
+                        </div>
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="infoproducto">
+                        <div class="imgproducto">
+                            <img src="./assets/img/armas/revolver/smithwesson629.jpg" class="card-img1" alt="...">
+                            <img src="./assets/img/armas/revolver/smithwesson6292.jpg" class="card-img2" alt="...">
+                        </div>
+                        <div class="resumenproducto">
+                            <h5 class="card-title">SMITH&WESSON 629 Competitor</h5>
+                            <p class="card-text">Son una de las opciones favoritas entre los cazadores con
+                                pistolas, los tiradores competitivos y los entusiastas de los revólveres. Estos
+                                revólveres están disponibles en producción, M&P, Classics, Champion Series y
+                                Performance Center en una variedad de calibres; en .357 Magnum, .44 Magnum y .45
+                                ACP.</p>
+                        </div>
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <h2 id="escopetas">Escopetas</h2>
+                <div class="item" >
+                    <div class="infoproducto">
+                        <div class="imgproducto">
+                            <img src="./assets/img/armas/escopeta/winchester1.jpg" class="card-img1" alt="...">
+                            <img src="./assets/img/armas/escopeta/winchester2.jpg" class="card-img2" alt="...">
+                        </div>
+                        <div class="resumenproducto">
+                            <h5 class="card-title">WINCHESTER SXP DEFENDER </h5>
+                            <p class="card-text">Una escopeta resistente y versátil. Esta no es otra escopeta de
+                                "defensa" que se sienta diligentemente esperando una situación que quizás nunca llegue.
+                                Culata y delantera de material sintético con acabado Dark Earth y cantonera de goma.
+                                Punto de mira de fibra óptica Truglo</p>
+                        </div>
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="infoproducto">
+                        <div class="imgproducto">
+                            <img src="./assets/img/armas/escopeta/winchester-sxp-1.jpg" class="card-img1" alt="...">
+                            <img src="./assets/img/armas/escopeta/winchester-sxp-2.jpg" class="card-img2" alt="...">
+                        </div>
+                        <div class="resumenproducto">
+                            <h5 class="card-title">WINCHESTER SXP TRACKER</h5>
+                            <p class="card-text">¡La seguridad es la palabra clave para esta escopeta dedicada al
+                                acecho! La seguridad inherente al sistema de recarga de esta arma está reforzada por el
+                                camuflaje naranja</p>
+                        </div>
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="infoproducto">
+                        <div class="imgproducto">
+                            <img src="./assets/img/armas/escopeta/mossberg1.jpg" class="card-img1" alt="...">
+                            <img src="./assets/img/armas/escopeta/mossberg2.jpg" class="card-img2" alt="...">
+                        </div>
+                        <div class="resumenproducto">
+                            <h5 class="card-title">MOSSBERG SA-20</h5>
+                            <p class="card-text">La MOSSBERG SA-20 es una escopeta semiautomática operada por gases,
+                                ligera (tan solo 2,7 Kg.) y equilibrada, de retroceso suave, ideal para la caza y el
+                                tiro al blanco. Viene con cañón cilíndrico de 28" (71cm.) con solista ventilada y punto
+                                de mira metálico</p>
+                        </div>
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <h2 id="rifles">Rifles</h2>
+                <div class="item" >
+                    <div class="infoproducto">
+                        <div class="imgproducto">
+                            <img src="./assets/img/armas/rifles/rifles-bergara-1.jpg" class="card-img1" alt="...">
+                            <img src="./assets/img/armas/rifles/rifles-bergara-2.jpg" class="card-img2" alt="...">
+                        </div>
+                        <div class="resumenproducto">
+                            <h5 class="card-title">RIFLES BERGARA BA13 </h5>
+                            <p class="card-text">Nuevo rifle monotiro provisto de cañón Bergara y con el sistema de
+                                disparo evolucionado, ofreciendo una arma mucho más estable, mejorando por tanto su
+                                precisión. Este arma destaca además por su manejabilidad.</p>
+                        </div>
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="infoproducto">
+                        <div class="imgproducto">
+                            <img src="./assets/img/armas/rifles/rifles-thompson-1.jpg" class="card-img1" alt="...">
+                            <img src="./assets/img/armas/rifles/rifles-thompson-2.jpg" class="card-img2" alt="...">
+                        </div>
+                        <div class="resumenproducto">
+                            <h5 class="card-title">RIFLES THOMPSON CENTER </h5>
+                            <p class="card-text">La legendaria precisión de los cañones Thompson se encuentra
+                                perfectamente plasmada en su rifle de cerrojo VENTURE.
+                                Su cañón con 5 estrías asimétricas y la arista de la estría en ángulo obtuso, consiguen
+                                una menor deformación y tensionado del proyectil</p>
+                        </div>
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="infoproducto">
+                        <div class="imgproducto">
+                            <img src="./assets/img/armas/rifles/rifle-krico-1.jpg" class="card-img1" alt="...">
+                            <img src="./assets/img/armas/rifles/rifle-krico-2.jpg" class="card-img2" alt="...">
+                        </div>
+                        <div class="resumenproducto">
+                            <h5 class="card-title">RIFLE KRICO I Sintético</h5>
+                            <p class="card-text">Cerrojo con doble tetón de cierre sobredimensionado en cabeza,
+                                realizado en acero de alta resistencia, le garantiza una gran solidez y fiabilidad.</p>
+                        </div>
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <h2 id="miras">Miras</h2>
+                <div class="item">
+                    <div class="infoproducto">
+                        <div class="imgproducto">
+                            <img src="./assets/img/accesorios/miras/mak-1.jpg" class="card-img1" alt="...">
+                            <img src="./assets/img/accesorios/miras/mak-2.jpg" class="card-img2" alt="...">
+                        </div>
+                        <div class="resumenproducto">
+                            <h5 class="card-title">Mak Hellfire Glock </h5>
+                            <p class="card-text">Iluminación LED
+                                Auto-On mode (opcional)
+                                Ajuste manual de 6 niveles de iluminación
+                                Iluminación en verde y rojo
+                                Compatible con todos los modelos Glock</p>
+                        </div>
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="infoproducto">
+                        <div class="imgproducto">
+                            <img src="./assets/img/accesorios/miras/visor-bushnell-1.jpg" class="card-img1" alt="...">
+                            <img src="./assets/img/accesorios/miras/visor-bushnell-2.jpg" class="card-img2" alt="...">
+                        </div>
+                        <div class="resumenproducto">
+                            <h5 class="card-title">Visor BUSHNELL RXS-100</h5>
+                            <p class="card-text">Visor punto rojo de BUSHNELL RXS-100 está fabricado en una
+                                robusta carcasa de aluminio de grado aeronáutico 6061-T6 que garantiza que el vidrio y
+                                los componentes internos electrónicos estén protegidos contra el retroceso del arma de
+                                fuego (incluidas pistolas de gran calibre)</p>
+                        </div>
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="infoproducto">
+                        <div class="imgproducto">
+                            <img src="./assets/img/accesorios/miras/red-dot-1.jpg" class="card-img1" alt="...">
+                            <img src="./assets/img/accesorios/miras/red-dot-2.jpg" class="card-img2" alt="...">
+                        </div>
+                        <div class="resumenproducto">
+                            <h5 class="card-title">RED DOT MAKDOT SH</h5>
+                            <p class="card-text">CARACTERÍSTICAS • Adquisición de objetivos extremadamente rápida en
+                                todos los rifl es . • Después de 4 horas sin movimiento, se desconecta completamente, lo
+                                que aumenta considerablemente la duración de la bateria.</p>
+                        </div>
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <h2 id="visores">Visor Nocturno</h2>
+                <div class="item">
+                    <div class="infoproducto">
+                        <div class="imgproducto">
+                            <img src="./assets/img/accesorios/visionnocturna/visor-nocturno-pard-1.jpg"
+                                class="card-img1" alt="...">
+                            <img src="./assets/img/accesorios/visionnocturna/visor-nocturno-pard-2.jpg"
+                                class="card-img2" alt="...">
+                        </div>
+                        <div class="resumenproducto">
+                            <h5 class="card-title">VISOR NOCTURNO PARD NV007S </h5>
+                            <p class="card-text">Visualización de imágenes nítidas y claras - sensor fhd 1080p 1920x180
+                                y pantalla oled 1024 x 768.
+                                Diseño ergonómico - el diseño ergonómico con cuerpo ligero hace que su mejilla esté más
+                                relajada y cómoda durante el disparo, sin necesidad de ajustar la posición de disparo.
+                            </p>
+                        </div>
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="infoproducto">
+                        <div class="imgproducto">
+                            <img src="./assets/img/accesorios/visionnocturna/monocular-nocturno-bushnell-1.jpg"
+                                class="card-img1" alt="...">
+                            <img src="./assets/img/accesorios/visionnocturna/monocular-nocturno-bushnell-2.jpg"
+                                class="card-img2" alt="...">
+                        </div>
+                        <div class="resumenproducto">
+                            <h5 class="card-title">Monocular nocturno BUSHNELL </h5>
+                            <p class="card-text">Con el NUEVO monocular digital de visión nocturna Equinox Z2 Night
+                                Vision de Bushnell disfrutarás de una claridad óptica excepcional, de la iluminación más
+                                avanzada y de un incomparable campo de visión</p>
+                        </div>
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="infoproducto">
+                        <div class="imgproducto">
+                            <img src="./assets/img/accesorios/visionnocturna/monocular-termico-gryphon-1.jpg"
+                                class="card-img1" alt="...">
+                            <img src="./assets/img/accesorios/visionnocturna/monocular-termico-gryphon-2.jpg"
+                                class="card-img2" alt="...">
+                        </div>
+                        <div class="resumenproducto">
+                            <h5 class="card-title">Monocular térmico Gryphon GQ35L</h5>
+                            <p class="card-text">El más revolucionario presentado. Cámara térmica de 35mm
+                                + cámara óptica + telémetro láser hasta 600 metros. Resolución del sensor térmico de
+                                640x512, 12 μm. Permite observar en cualquier condición climática y combinar la
+                                tecnología térmica y nocturna digital a través de una linterna de infrarrojos </p>
+                        </div>
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <h2 id="armeros">Armeros</h2>
+                <div class="item">
+                    <div class="infoproducto">
+                        <div class="imgproducto">
+                            <img src="./assets/img/armeros/infac-breton-1.jpg" class="card-img1" alt="...">
+                            <img src="./assets/img/armeros/infac-breton-2.jpg" class="card-img2" alt="...">
+                        </div>
+                        <div class="resumenproducto">
+                            <h5 class="card-title">INFAC SK BRETON </h5>
+                            <p class="card-text">En chapa de acero y puerta reforzada con sistema antipalanca. Cierre de
+                                gorjas de seguridad con llave de doble paletón. 5 bulones de 25mm de diámetro de gran
+                                profundidad. Armero con capacidad para 5 Armas Anclajes por su pared posterior</p>
+                        </div>
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="infoproducto">
+                        <div class="imgproducto">
+                            <img src="./assets/img/armeros/armeros-de-seguridad-infac-1.jpg" class="card-img1"
+                                alt="...">
+                            <img src="./assets/img/armeros/armeros-de-seguridad-infac-2.jpg" class="card-img2"
+                                alt="...">
+                        </div>
+                        <div class="resumenproducto">
+                            <h5 class="card-title">INFAC SK5 Armero </h5>
+                            <p class="card-text">Nuevo modelo tapizado interior. Homologación europea UNE EN 1143-1. En
+                                chapa de acero y puerta reforzada con sistema antipalanca. Cierre de gorjas de seguridad
+                                con llave de doble paletón. 5 bulones de 25mm de diámetro de gran profundidad. </p>
+                        </div>
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="infoproducto">
+                        <div class="imgproducto">
+                            <img src="./assets/img/armeros/armero-sps-ap401-1.jpg" class="card-img1" alt="...">
+                            <img src="./assets/img/armeros/armero-sps-ap401-2.jpg" class="card-img2" alt="...">
+                        </div>
+                        <div class="resumenproducto">
+                            <h5 class="card-title">Armero SPS AP401 Aenor</h5>
+                            <p class="card-text">Armero homologado SPS Grado I modelo AP401A con certificación AENOR y
+                                homologado según Normativa Europea UNE EN 1143-1:2019.</p>
+                        </div>
+                        <div data-tooltip="Price:-$20" class="button">
+                            <div class="button-wrapper">
+                                <div class="text">Buy Now</div>
+                                <span class="icon">
+                                    <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16"
+                                        width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </section>
+        </main>
+
+        <footer class="footer box">
+            <p class="text-center">&copy; 2023 Todos los derechos reservados.</p>
+        </footer>
+
+
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
